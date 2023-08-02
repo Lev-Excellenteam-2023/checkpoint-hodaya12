@@ -1,0 +1,1 @@
+cmd_/home/hodaya/Desktop/checkpoint4/netfilter_module.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/hodaya/Desktop/checkpoint4/netfilter_module.ko /home/hodaya/Desktop/checkpoint4/netfilter_module.o /home/hodaya/Desktop/checkpoint4/netfilter_module.mod.o;  true

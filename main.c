@@ -226,25 +226,18 @@ void insertNewStudent() {
     
     printf("Enter the student's first name: ");
     get_input(firstName,MAXNUMF);
-    while(strlen(firstName)>MAXNUMF){
-        printf("first name too long:, Enter again:");
-        get_input(firstName,MAXNUMF);
-    }
+    
     
 
     printf("Enter the student's last name: ");
     get_input(lastName,MAXNUML);
-    while(strlen(lastName)>MAXNUML){
-        printf("last name too long, Enter again:");
-        get_input(lastName,MAXNUML);
-    }
+   
 
     printf("Enter the student's phone number: ");
     get_input(phoneNumber,MAXNUMP);
     int phoneNumberLength = strlen(phoneNumber);
     int containsOnlyDigits = 1;
-    if(phoneNumberLength>MAXNUMP)
-        containsOnlyDigits=0;
+    
 
     for (int i = 0; i < phoneNumberLength; i++) {
             if (!isdigit(phoneNumber[i])) {

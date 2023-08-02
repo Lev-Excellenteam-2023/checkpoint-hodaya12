@@ -1,0 +1,1 @@
+cmd_/home/hodaya/Desktop/checkpoint4/Module.symvers := sed 's/ko$$/o/' /home/hodaya/Desktop/checkpoint4/modules.order | scripts/mod/modpost -m -a  -o /home/hodaya/Desktop/checkpoint4/Module.symvers -e -i Module.symvers   -T -
